@@ -83,7 +83,7 @@ export class Board extends React.Component {
   render() {
     return (
       <div>
-        <h1>Board</h1>
+        <h1>Puzzle</h1>
         <div>{this.matrix[0][0]}{this.matrix[0][1]}{this.matrix[0][2]}</div>
         <div>{this.matrix[1][0]}{this.matrix[1][1]}{this.matrix[1][2]}</div>
         <div>{this.matrix[2][0]}{this.matrix[2][1]}{this.matrix[2][2]}</div>
